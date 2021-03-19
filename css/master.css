@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 10vh;
+}
+.video{
+    height: 90vh;
+}
+video,img{
+  width:100%;
+   
+}
+
+.catedral{
+    width: 100%;
+    position: relative;
+    
+}
+.titulo{
+    position: absolute;
+    top: 200px; 
+    background-color: rgba(0, 0,0, 0.5);
+    font-size: 4rem;
+    padding: 20px;
+  
+}
+.subtitulo{
+    position: absolute;
+    top: 350px;
+  
+}
+.fondo{
+    display:flex;
+    justify-content: center;
+}
+
+
+.parrafo1{
+    font-size: 2rem;
+    text-align: justify;
+    padding-top: 25px;
+    padding: 25px;
+
+}
+.descripcion{
+    padding-top: 160px;
+    padding-left: 40px;
+}
+.imagen img{
+    padding: 30px;
+    
+}
+.galeria,.contacto{
+    padding: 40px;
+}
+.subir{
+    background-color: blue;
+    color: white;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.nosotros{
+    z-index:100 ;
+}
